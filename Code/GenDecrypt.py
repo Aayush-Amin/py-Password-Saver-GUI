@@ -1,4 +1,4 @@
-mainFile=open('Password Secure\passwordData.txt','r')
+mainFile=open('Password Secure\Code\passwordData.txt','r')
 mainFileLines=mainFile.readlines()
 mainFile.close()
 
