@@ -1,4 +1,4 @@
-mainFile=open('C:/Users/Aayush Amin/Desktop/Projects/Password Secure/savedPassword.txt','r')
+mainFile=open('Password Secure\passwordData.txt','r')
 mainFileLines=mainFile.readlines()
 mainFile.close()
 

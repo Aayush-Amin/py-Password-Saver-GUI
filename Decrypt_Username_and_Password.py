@@ -10,7 +10,7 @@ def mainDecrypteFun():
 
 
 def runFile():
-    outFile=open('C:/Users/Aayush Amin/Desktop/Projects/Password Secure/passwordData.txt','r')
+    outFile=open('Password Secure\passwordData.txt','r')
     Lines=outFile.readlines()
     outFile.close()
     return Lines
