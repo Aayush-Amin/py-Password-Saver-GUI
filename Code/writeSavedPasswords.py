@@ -4,6 +4,6 @@ def writeSavedPasswords(website,name,password):
     enWebsite=genEncrypt(website)
     enName=genEncrypt(name)
     enPassword=genEncrypt(password)
-    savePath=open('Password Secure\Code\savedPassword.txt', 'a')
+    savePath=open('Code\savedPassword.txt', 'a')
     savePath.write(f'{enWebsite};Vtfsobnf;{enName}!!!!Qbttxpse;{enPassword}'+'\n')
     savePath.close()

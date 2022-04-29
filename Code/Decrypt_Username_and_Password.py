@@ -10,7 +10,7 @@ def mainDecrypteFun():
 
 
 def runFile():
-    outFile=open('Password Secure\Code\passwordData.txt','r')
+    outFile=open('Code\passwordData.txt','r')
     Lines=outFile.readlines()
     outFile.close()
     return Lines

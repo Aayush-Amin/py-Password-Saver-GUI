@@ -126,7 +126,7 @@ class MyWindow(QMainWindow):
         self.mainList.adjustSize()
         self.resetLabel.adjustSize()
 
-        outFile=open('Password Secure\Code\passwordData.txt','r')
+        outFile=open('Code\passwordData.txt','r')
         lines=outFile.readlines()
         if lines:
             self.b2.hide()
@@ -160,11 +160,11 @@ class MyWindow(QMainWindow):
 
 
     def resetdata(self):
-        file1=open('Password Secure\Code\savedPassword.txt','r+')
+        file1=open('Code\savedPassword.txt','r+')
         file1.truncate(0)
         file1.close()
         
-        file2=open('Password Secure\Code\savedPassword.txt','r+')
+        file2=open('Code\savedPassword.txt','r+')
         file2.truncate(0)
         file2.close()
         sys.exit()
@@ -177,7 +177,7 @@ class MyWindow(QMainWindow):
 
 
     def readsaves(self):
-        self.mainFile=open('Password Secure\Code\savedPassword.txt','r')
+        self.mainFile=open('Code\savedPassword.txt','r')
         self.mainFileLines=self.mainFile.readlines()
         self.mainFile.close()
         
