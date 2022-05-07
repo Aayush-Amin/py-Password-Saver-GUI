@@ -13,7 +13,7 @@ def encryptUsername(username):
 
     usernameEncrypted=''.join(encryptedUsernameUnjoined)
     
-    outFile=open('Code\passwordData.txt', 'a')
+    outFile=open('passwordData.txt', 'a')
     outFile.write(usernameEncrypted+'\n')
     outFile.close()
 
@@ -35,6 +35,6 @@ def encryptPassword(password):
     passwordEncrypted=''.join(encryptedPasswordUnjoined)
     
 
-    outFile=open('Code\passwordData.txt', 'a')
+    outFile=open('passwordData.txt', 'a')
     outFile.write(passwordEncrypted)
     outFile.close()
