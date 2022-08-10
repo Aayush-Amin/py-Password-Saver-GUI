@@ -164,9 +164,10 @@ class MyWindow(QMainWindow):
         file1.truncate(0)
         file1.close()
         
-        file2=open('savedPassword.txt','r+')
+        file2=open('passwordData.txt','r+')
         file2.truncate(0)
         file2.close()
+        
         sys.exit()
 
 
